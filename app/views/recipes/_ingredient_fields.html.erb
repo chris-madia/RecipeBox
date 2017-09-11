@@ -1,0 +1,9 @@
+<div class='nested-fields'>
+  <div class="field">
+    <%= f.label :ingredient %>
+    <%= f.text_field :ingredient %>
+    <%= f.label :amount %>
+    <%= f.text_field :amount %>
+  </div>
+  <%= link_to_remove_association "remove ingredient", f %>
+</div>

@@ -1,0 +1,28 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+ h1 {
+   font-family: 'Baloo Bhaijaan';
+   font-size: 40px;
+   text-decoration: underline;
+ }
+
+ .headers {
+   background-color: #4DB681;
+   color: white;
+   font-family: 'Baloo Bhaijaan';
+   font-size: 25px;
+   border-radius: .5px;
+ }
+
+ .body {
+   background-color: #9CCBF3;
+   color: white;
+   font-family: 'Baloo Bhaijaan';
+
+ }
+
+ .button {
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
